@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  background-color: whitesmoke;
   }
 
 /*Styles for landing page (Home.jsx)*/
@@ -85,7 +86,7 @@ body, html {
 
 
 .about-main .right-col{
-  background-color:grey;
+  background-color:#8e989e;
 }
 
 
@@ -100,12 +101,37 @@ body, html {
 
 /****************************/
 /**Portfolio Styles**/
+
+.portfolio-main{
+  background-color: whitesmoke;
+}
 .portfolio-main h1{
   margin-top: 2em;
   font-family: 'Anton', 'sans-serif';
   color: Black;
   text-align: center;
 }
+
+/****************************/
+
+/**Contact Me Styles*/
+.contact-main h1{
+  font-family: 'Anton';
+  text-align: center;
+  margin-top: 2em;
+}
+
+.contact-main p{
+  font-family: 'Oxygen';
+}
+
+.contact-main .contact-form{
+  font-family: 'Anton';
+  background-color: white;
+  padding: 2em;
+  border-radius: 2em;
+}
+
 
 
 /****************************/

@@ -23,7 +23,7 @@ class Portfolio extends Component{
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
+                            <Card.Link href="https://github.com/rsobrepe/myPortfolio" rel="noopener noreferrer" target="_blank"><i class="fab fa-github" style={{color: 'black', fontSize: '2em'}}></i></Card.Link>
                             </Card.Footer>
                         </Card>
                    
@@ -37,7 +37,7 @@ class Portfolio extends Component{
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
+                             <Card.Link href="#"><i class="fab fa-github" style={{color: 'black', fontSize: '2em'}}></i></Card.Link>
                             </Card.Footer>
                         </Card>
                   
@@ -52,7 +52,7 @@ class Portfolio extends Component{
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
+                                <Card.Link href="#"><i class="fab fa-github" style={{color: 'black', fontSize: '2em'}}></i></Card.Link>
                             </Card.Footer>
                         </Card>
                         </Row>
@@ -70,7 +70,7 @@ class Portfolio extends Component{
                                 </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
+                                <Card.Link href="#"><i class="fab fa-github" style={{color: 'black', fontSize: '2em'}}></i></Card.Link>
                                 </Card.Footer>
                             </Card>
 
@@ -85,7 +85,7 @@ class Portfolio extends Component{
                                 </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
+                                <Card.Link href="https://github.com/rsobrepe/BudgetApp" rel="noopener noreferrer" target="_blank"><i class="fab fa-github" style={{color: 'black', fontSize: '2em'}}></i></Card.Link>
                                 </Card.Footer>
                             </Card>
 
@@ -99,7 +99,7 @@ class Portfolio extends Component{
                                 </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
+                                <Card.Link href="#"><i class="fab fa-github" style={{color: 'black', fontSize: '2em'}}></i></Card.Link>
                                 </Card.Footer>
                             </Card>
                         </Row>
