@@ -35,6 +35,61 @@ body, html {
 /****************************/
 
 /*Styles for About Me page*/
+.about-main h1{
+  font-family: 'Anton', sans-serif;
+}
+
+.about-profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-main .left-col{
+  background-color:#95b1c0;
+}
+
+.about-main .left-col h1{
+  margin-top: 1em;
+  text-align: center;
+}
+.about-main .left-col h2{
+  margin-top: 0.5em;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+}
+
+.about-main .left-col i{
+  display: flex;
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.about-main .left-col h3{
+  margin-top: 0.5em;
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+}
+
+.about-main .left-col p{
+  padding: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.about-main .right-col{
+  background-color:grey;
+}
+
+
+.about-main .right-col h1{
+    margin-top: 2em;  
+    color: white;
+    text-align: center; 
+}
+
 
 
 /****************************/
