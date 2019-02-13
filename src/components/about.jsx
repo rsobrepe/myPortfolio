@@ -17,8 +17,9 @@ class About extends Component{
                     <hr style={{borderTop: '3px solid black', width: '100%'}}/>
                     <p>
                     Computer Science Graduate from Ryerson University (2014-2018).
-                    Interests in Computer Science include developing Mobile Applications, Java Applications/Software as well as Web Development. 
-                    Eager and willing to learn and try new things in the world of Computer Science
+                    Passions in Computer Science include developing Mobile Applications, Java/C# Applications and ofcourse Web Development. 
+                    I am always learning and always growing when it comes to programming and I believe that sky is the limit when it comes to programming which is one of the 
+                    main reasons I love coding so much.
                     </p>
                     
                     <hr style={{borderTop: '3px solid black', width: '100%'}}/>
