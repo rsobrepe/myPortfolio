@@ -25,6 +25,10 @@ body, html {
   padding: 8px;
 }
 
+.main-background .social-links i:hover{
+  opacity: 0.8;
+}
+
 .main-background .bg h1{
   font-family: 'Anton', sans-serif;
   text-align: center;
@@ -46,7 +50,7 @@ body, html {
 }
 
 .about-main .left-col{
-  background-color:#95b1c0;
+  background-color:whitesmoke;
 }
 
 .about-main .left-col h1{
@@ -75,9 +79,10 @@ body, html {
 
 .about-main .left-col p{
   padding: 1em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-weight: bold;
 }
+
 
 .about-main .right-col{
   background-color:grey;
@@ -85,11 +90,22 @@ body, html {
 
 
 .about-main .right-col h1{
-    margin-top: 2em;  
+    margin-top: 3em;  
     color: white;
-    text-align: center; 
 }
 
+.about-main .right-col p{
+  color: white;
+}
+
+/****************************/
+/**Portfolio Styles**/
+.portfolio-main h1{
+  margin-top: 2em;
+  font-family: 'Anton', 'sans-serif';
+  color: Black;
+  text-align: center;
+}
 
 
 /****************************/

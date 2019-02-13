@@ -14,19 +14,19 @@ class Home extends Component{
                             <div className="social-links">
                                 {/*LinkedIn*/}
                                 <a href="https://www.linkedin.com/in/raymon-sobrepena/" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                                  <i class="fab fa-linkedin"></i>
                                 </a>                                                        
                                 {/*GitHub*/}
                                 <a href="https://github.com/rsobrepe" rel="noopener noreferrer" target="_blank">
-                                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                                    <i class="fab fa-github-square"></i>
                                 </a>
                                 {/*Facebook*/}
                                 <a href="https://www.facebook.com/raysobrepena" rel="noopener noreferrer" target="_blank">
-                                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                    <i class="fab fa-facebook-square"></i>
                                 </a>
                                 {/*Instagram*/}
                                 <a href="https://www.instagram.com/raysobrepena/" rel="noopener noreferrer" target="_blank">
-                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
                     </div>
