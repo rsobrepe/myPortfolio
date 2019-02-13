@@ -5,6 +5,10 @@ import $ from 'jquery';
 
 
 class Home extends Component{
+    
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 
     scrollToTop = () => {
         scroll.scrollToTop(); 

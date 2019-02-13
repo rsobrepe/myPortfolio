@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { CardDeck, Card, Row } from 'react-bootstrap';
 
 class Portfolio extends Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     render(){
         return(
             <div className="portfolio-main">

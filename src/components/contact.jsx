@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
 
 class Contact extends Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     render(){
         return(
             <Container className="contact-main" fluid>

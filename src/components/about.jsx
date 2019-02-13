@@ -5,6 +5,9 @@ import Experience from './experience';
 import Skills from './skills';
 
 class About extends Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     render(){
         return(
             <Container className="about-main" fluid>

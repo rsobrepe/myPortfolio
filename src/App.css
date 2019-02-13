@@ -82,6 +82,10 @@ body, html {
   padding: 8px;
 }
 
+.main-background .home-intro i:hover{
+  opacity: 0.8;
+}
+
 .main-background .home-intro p{
   padding-top: 3em;
   font-family: 'Oxygen';
