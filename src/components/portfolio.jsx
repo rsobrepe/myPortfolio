@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { CardDeck, Card, Row, Col, Container } from 'react-bootstrap';
+import { CardDeck, Card, Row } from 'react-bootstrap';
 
 class Portfolio extends Component{
     render(){

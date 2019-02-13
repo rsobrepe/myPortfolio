@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav} from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
+import './navbar.css';
 
 class Mynavbar extends Component {
     render(){
@@ -8,13 +9,34 @@ class Mynavbar extends Component {
             <div className="main">
             <div className="main-navbar">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed='top'>
-                  <Navbar.Brand href="/">Ray Sobrepena</Navbar.Brand>
+            <Navbar.Brand href="/">Ray Sobrepena</Navbar.Brand>
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                   <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                      <Nav.Link href="/about" activeClassName="selected">About</Nav.Link>
-                      <Nav.Link href="/portfolio" activeClassName="selected">Projects</Nav.Link>
-                      <Nav.Link href="/contact" activeClassName="selected">Contact Me</Nav.Link>
+                  <Nav className="mr-auto">
+                      <Nav.Link href="#" activeClassName="selected">
+                      <Link to="/about"
+                        style={{
+                          fontFamily: 'Oxygen',
+                          color: 'grey'
+                        }}
+                      >About</Link>
+                      </Nav.Link>
+
+                      <Nav.Link href="#" activeClassName="selected">
+                      <Link to="/portfolio" style={{
+                          fontFamily: 'Oxygen',
+                          color: 'grey'
+                        }}
+                      >Projects</Link>
+                      </Nav.Link>
+
+                      <Nav.Link href="#" activeClassName="selected">
+                      <Link to="/contact"style={{
+                          fontFamily: 'Oxygen',
+                          color: 'grey'
+                        }}
+                      >Contact Me</Link>
+                      </Nav.Link>
                     </Nav>
                   </Navbar.Collapse>
             </Navbar>
