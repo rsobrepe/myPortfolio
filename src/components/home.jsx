@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import $ from 'jquery';
-import { Image } from 'react-bootstrap';
 
 
 
 class Home extends Component{
+
+    scrollToTop = () => {
+        scroll.scrollToTop(); 
+    };
     render(){
         return(
             <div className="main-background">
@@ -30,15 +34,20 @@ class Home extends Component{
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
-                            <div className="learn-more">  
-
-                            <i class="fas fa-angle-double-down" id="#section" 
-                                style={{marginBottom: '1px', fontSize: '3em',
-                                color: 'white', display: 'flex', margin:' auto', paddingLeft: '50%', paddingTop:'5.5em'
-                                }}
-                            ></i>
-
-                            </div>     
+                            <Link
+                                activeClass="active"
+                                to="home-intro"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={100}
+                            >  
+                                <i class="fas fa-angle-double-down" id="#section" 
+                                    style={{marginBottom: '1px', fontSize: '3em',
+                                    color: 'white', display: 'flex', margin:' auto', paddingLeft: '50%', paddingTop:'5.5em'
+                                    }}
+                                ></i>
+                            </Link>     
                     </div>
 
                     <div className = "home-intro">
@@ -53,11 +62,33 @@ class Home extends Component{
                             </p>
                             <h3>Tools used for this Website:</h3>
                             <div className="social-links-intro">
-                                <i class="fab fa-html5"></i> 
-                                <i class="fab fa-css3-alt"></i>
-                                <i class="fab fa-js-square"></i>
-                                <i class="fab fa-react"></i>
+
+                                <a href="https://html.com/" rel="noopener noreferrer" target="_blank">
+                                    <i class="fab fa-html5"></i> 
+                                </a>
+
+                                <a href="https://www.w3schools.com/css/" rel="noopener noreferrer" target="_blank">
+                                    <i class="fab fa-css3-alt"></i>
+                                </a>
+
+                                <a href="https://www.javascript.com/" rel="noopener noreferrer" target="_blank">
+                                    
+                                <i class="fab fa-js-square"></i> 
+                                </a>
+                                <a href="https://reactjs.org/" rel="noopener noreferrer" target="_blank">
+                                    <i class="fab fa-react"></i> 
+                                </a>                                                                                            
                             </div>
+                            <Link
+                                activeClass="active"
+                                to="bg"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={100}
+                            > 
+                            <h3 style={{paddingTop: '5em', fontSize:'1em'}}>Back To Top</h3>
+                            </Link>
                     </div>
          
             </div>        
