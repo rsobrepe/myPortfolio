@@ -1,6 +1,7 @@
 body, html {
   height: 100%;
   background-color: whitesmoke;
+  scroll-behavior: smooth;
   }
 
 /*Styles for landing page (Home.jsx)*/
@@ -30,12 +31,66 @@ body, html {
   opacity: 0.8;
 }
 
+.main-background h2{
+  font-size: 1em;
+  font-family: 'Anton';
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 15em;
+}
+
 .main-background .bg h1{
   font-family: 'Anton', sans-serif;
   text-align: center;
   font-size: 5em;
   padding-top: 5em;
   color:whitesmoke; 
+}
+
+.main-background .home-intro{
+  background-color: #343a40;
+  background-size:cover;
+  height: 92vh;
+}
+
+.main-background .home-intro h2{
+  font-size: 5em;
+  padding-top: 1em;
+  font-family: 'Anton';
+  color: whitesmoke;
+  text-align: center;
+}
+
+.main-background .home-intro h3{
+  font-size: 1.5em;
+  padding-top: 6em;
+  font-family: 'Anton';
+  color: whitesmoke;
+  text-align: center;
+}
+
+.main-background .social-links-intro{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+}
+
+.main-background .home-intro i{
+  color: whitesmoke;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.main-background .home-intro p{
+  padding-top: 3em;
+  font-family: 'Oxygen';
+  color: whitesmoke;
+  text-align: center;
+}
+
+.main-background .bg i:hover{
+  opacity: 0.8;
 }
 /****************************/
 
@@ -52,6 +107,7 @@ body, html {
 
 .about-main .left-col{
   background-color:whitesmoke;
+  border-radius: 5em;
 }
 
 .about-main .left-col h1{
